@@ -4,6 +4,7 @@ metadata:
   name: fusionauth
   namespace: default
 spec:
+  type: LoadBalancer
   ports:
   - name: http
     port: 9011
